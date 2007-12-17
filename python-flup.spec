@@ -12,7 +12,6 @@ Release: %mkrel %{release}
 Source0: http://www.saddi.com/software/%oname/dist/%oname-%version.tar.gz 
 License: BSD
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Url: http://trac.saddi.com/flup
 BuildRequires: python-devel
