@@ -1,8 +1,8 @@
 %define oname flup
 
 %define name python-%oname
-%define version 1.0
-%define release 2
+%define version 1.0.2
+%define release 1
 
 Summary:  Python module related to FastCGI and WSGI
 Name: %{name}
