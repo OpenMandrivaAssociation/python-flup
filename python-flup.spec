@@ -41,3 +41,30 @@ rm -rf $RPM_BUILD_ROOT
 %py_sitedir/%{oname}
 %py_sitedir/*.egg-info/
 
+
+
+%changelog
+* Thu Nov 11 2010 Eugeni Dodonov <eugeni@mandriva.com> 1.0.2-2mdv2011.0
++ Revision: 596286
+- Rebuild for new python.
+
+* Tue Jun 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.2-1mdv2010.0
++ Revision: 384249
+- update to new version 1.0.2
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 1.0-2mdv2009.1
++ Revision: 323712
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0-1mdv2009.0
++ Revision: 136447
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Dec 01 2007 Michael Scherer <misc@mandriva.org> 1.0-1mdv2008.1
++ Revision: 114349
+- import python-flup
+
+
