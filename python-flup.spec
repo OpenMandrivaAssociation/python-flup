@@ -14,7 +14,7 @@ License: BSD
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
-Url: http://trac.saddi.com/flup
+Url: https://trac.saddi.com/flup
 BuildRequires: python-devel
 BuildRequires: python-setuptools
 
