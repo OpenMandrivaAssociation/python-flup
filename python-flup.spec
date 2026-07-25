@@ -2,12 +2,12 @@
 
 %define name python-%oname
 %define version 1.0.2
-%define release 3
+%define release 4
 
 Summary:  Python module related to FastCGI and WSGI
 Name: %{name}
 Version: %{version}
-Release: %mkrel %{release}
+Release: %{release}.1
 
 Source0: http://www.saddi.com/software/%oname/dist/%oname-%version.tar.gz 
 License: BSD
